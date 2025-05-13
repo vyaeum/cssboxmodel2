@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.header-content{
+    background-image: url(../images/bg1.jpg);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
+    color: white;
+    padding: 26px;
+}
+
+.header-content h1{
+    padding: 124px 0 0;
+}
+
+.header-content p {
+    padding: 17px 0;
+    display: inline-block;
+    max-width: 850px;
+}
+
+.header-content a{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 3.5%;
+    background-color: #333;
+}
+
+.header-content a:hover {
+     border: 1px #ffffff solid;
+    background-color: white;
+    color: black;
+}
+
+.section-one{
+    padding: 26px;
+}
+
+.section-one h2{
+    padding: 26px 0;
+    font-size: 25px;
+}
+
+.section-one p{
+    display: inline-block;
+    font-size: 16px;
+    max-width: 460px;
+    padding: 0 20px;
+}
+
+.section-two{
+    padding: 26px;
+    background-color: #333;
+}
+
+.section-two ul li{
+max-width: 260px;
+display: inline-block;
+margin: 30px 10px;
+background-color: white;
+}
+
+.card{
+    padding: 26px;
+}
+
+.card img{
+    width: 100%;
+}
+.section-two h3{
+padding: 20px 0;
+}
+
+.section-two p{
+    padding: 17px 0 ;
+}
+
+.section-three{
+    padding: 26px;
+}
+
+.section-three h2{
+    padding: 26px 0;
+}
+
+.section-three p{
+ padding: 17px 0;
+}
+
+.section-four{
+    font-size: 0;
+}
+
+.section-four div{
+    display: inline-block;
+    color: white;
+    width: 50%;
+    padding-bottom: 70px;
+}
+
+.section-four h2{
+padding: 50px 0;
+}
+
+.section-four p{
+    max-width: 800px;
+    padding: 0 59px;
+    margin: 0;
+}
+
+.contacts{
+    background-color: #2690d4;
+    font-size: 16px;
+}
+
+.contacts a{
+    padding: 17px;
+    text-decoration: none;
+    color: white;
+}
+
+.about-company{
+    background-color: #333;
+    font-size: 16px;
+}
+
+.rules {
+    background-color: black;
+}
+
+.rules p{
+    display: inline-block;
+    margin: 35px 60px;
+    color: white;
+}
+
+.rules a{
+    text-decoration: none;
+    color: #2690d4;
+}
